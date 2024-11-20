@@ -8,7 +8,6 @@ html {
     font-family: "Be Vietnam Pro", serif;
     font-size: clamp(14px, 2.5vw, 16px);
 }
-
 body {
     background-image: url(resources/svg/background.svg);
     background-repeat: no-repeat;
@@ -16,10 +15,13 @@ body {
     width: 100vw;
     min-height: 100vh;
 }
-
 .logo-img {
     width: 6rem;
     height: auto;
+}
+header {
+    width: 42rem;
+    margin: 2rem auto;
 }
 
 
@@ -36,7 +38,8 @@ header h2 {
     font-size: 2rem;
 }
 h1, header h2 {
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-align: center;
 }
 label {
     font-size: 0.875rem;
