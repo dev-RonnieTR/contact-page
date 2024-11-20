@@ -32,7 +32,7 @@ header {
     margin: 2rem auto;
     padding: 2rem;
 
-    background-color: rgba(205, 213, 224, 0.3);
+    background-color: #FFFFFF33;
     border-radius: 20px;
 }
 .form-row {
@@ -42,6 +42,19 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+.input{
+    height: 4rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.input, option {
+    color: #111729;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 /* Modules */
