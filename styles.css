@@ -54,7 +54,9 @@ header {
     outline: none;
     padding: 1rem;
 }
-
+#message {
+    height: 12rem;
+}
 /* Modules */
 img {
     display: block;    
