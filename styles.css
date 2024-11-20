@@ -6,7 +6,7 @@
 
 html {
     font-family: "Be Vietnam Pro", serif;
-    font-size: clamp(12px, 2.5vw, 16px);
+    font-size: clamp(12px, 2vw, 16px);
 }
 body {
     background-image: url(resources/svg/background.svg);
@@ -42,11 +42,12 @@ header {
 .form-element {
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
     width: 100%;
 }
 .input{
     height: 4rem;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     outline: none;
     padding: 1rem;
