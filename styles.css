@@ -6,6 +6,7 @@
 
 html {
     font-family: "Be Vietnam Pro", serif;
+    font-size: clamp(14px, 2.5vw, 16px);
 }
 
 body {
@@ -16,7 +17,27 @@ body {
     min-height: 100vh;
 }
 
+.logo-img {
+    width: 6rem;
+    height: auto;
+}
+
+
 /* Modules */
 img {
-    display: block;
+    display: block;    
+}
+
+/* Typography */
+h1 {
+    font-size: 4rem;
+}
+header h2 {
+    font-size: 2rem;
+}
+h1, header h2 {
+    color: #FFFFFF
+}
+label {
+    font-size: 0.875rem;
 }
