@@ -47,12 +47,16 @@ header {
     gap: 0.3rem;
     width: 100%;
 }
-.input{
+.input, button{
     height: 4rem;
     border-radius: 15px;
     border: none;
     outline: none;
     padding: 1rem;
+}
+button {
+    justify-content: center;
+    align-items: center;
 }
 #message {
     height: 12rem;
@@ -84,4 +88,10 @@ label {
     font-family: inherit;
     font-weight: 700;
     font-size: 1rem;
+}
+button {
+    color: #4036A9;
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
