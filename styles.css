@@ -37,6 +37,7 @@ header {
 }
 .form-row {
     display: flex;
+    gap: 1rem;
 }
 .form-element {
     display: flex;
