@@ -48,13 +48,7 @@ header {
     border-radius: 10px;
     border: none;
     outline: none;
-    padding-left: 1rem;
-}
-.input, option {
-    color: #111729;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 1rem;
+    padding: 1rem;
 }
 
 /* Modules */
@@ -78,4 +72,10 @@ label {
     font-size: 0.875rem;
     color: #FFFFFF;
     font-weight: 200;
+}
+.input, .input::placeholder, option {
+    color: #111729;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
 }
