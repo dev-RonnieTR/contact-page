@@ -8,3 +8,12 @@ html {
     font-family: "Be Vietnam Pro", serif;
 }
 
+body {
+    background-image: url(resources/svg/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+
