@@ -71,6 +71,15 @@ button {
 img {
     display: block;    
 }
+select {
+    appearance: none;
+    background-image: url(resources/svg/Expand_down.svg);
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+}
+select:hover {
+    cursor: pointer;
+}
 
 /* Typography */
 h1 {
