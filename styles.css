@@ -23,6 +23,8 @@ body {
 .logo-img {
     width: 6rem;
     height: auto;
+    margin-top: 1vh;
+    margin-left: 5%;
 }
 
 header {
