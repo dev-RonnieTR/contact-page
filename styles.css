@@ -90,12 +90,12 @@ label {
     color: #111729;
     font-family: inherit;
     font-weight: 700;
-    font-size: max(1rem, 14px);
+    font-size: max(1rem)
 }
 button {
     color: #4036A9;
     font-family: inherit;
-    font-size: max(1.25rem, 18px);
+    font-size: 1.25rem;
     font-weight: 800;
 }
 
