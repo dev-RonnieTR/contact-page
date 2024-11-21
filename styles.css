@@ -76,6 +76,7 @@ select {
     background-image: url(resources/svg/Expand_down.svg);
     background-repeat: no-repeat;
     background-position: right 1rem center;
+    text-overflow: ellipsis;
 }
 select:hover {
     cursor: pointer;
